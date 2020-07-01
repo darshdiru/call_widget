@@ -1,0 +1,91 @@
+/* styling the wrapper which contains the widget */
+
+.wrapper {
+  position: fixed;
+  right: 100px;
+  bottom: 120px;
+  border-radius: 8px;
+  background-color: rgba(34, 34, 34, 1);
+  box-sizing: border-box;
+  min-width: 200px;
+  padding: 20px 28px 28px;
+}
+
+.wrapperTitle {
+  color: #ffffff;
+  margin: 0px;
+}
+
+.wrapperTitle,
+.phoneText,
+.content {
+  font-size: 18px;
+}
+
+/*adding stylings to anchor link and phone number */
+.content {
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 10px;
+  outline: none !important;
+}
+
+.teleLink {
+  background-color: rgba(118, 248, 43, 0.06);
+  display: inline-flex;
+  border-radius: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 15px;
+  cursor: pointer;
+}
+
+.teleLink:hover,
+.teleLink {
+  color: rgb(214, 209, 51);
+  text-decoration: none;
+}
+
+.phoneIcon svg {
+  fill: rgb(214, 209, 51);
+  width: 15px;
+  height: 15px;
+}
+
+.phoneText {
+  margin-left: 5px;
+  font-weight: 650px;
+}
+
+/*placing the icon container at the bottom*/
+
+.iconHolder {
+  position: fixed;
+  bottom: 60px;
+  right: 115px;
+}
+
+/* stylings applied to svg close icon */
+
+.buttonHolder {
+  position: relative;
+  bottom: 0;
+  font-size: 15px;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 500px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px 15px;
+}
+
+.buttonIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  padding: 0px 3px;
+}
+
+.buttonIcon svg {
+  fill: rgba(255, 255, 255);
+  cursor: pointer;
+}
